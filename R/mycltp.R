@@ -5,8 +5,6 @@
 #' This is a part of the lab 8 requirement
 #'
 #' @param n a sample size
-#' @param iter number of iterations
-#' @param lambda default value of 10, lambda according to poisson dist.
 #'
 #' @return a set of graphs
 #' @export
