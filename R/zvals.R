@@ -10,7 +10,7 @@
 #' @export
 #'
 #' @examples
-#' x = 1:57 ; zvals(x)
+#' x = 1:58 ; zvals(x)
 zvals <- function(x) {
   z = (x-mean(x))/sd(x)
 }
