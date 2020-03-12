@@ -23,5 +23,5 @@ Produces cumulative normal density plots and its area.
 This is a part of the lab 6 function requirement
 }
 \examples{
-mean = 0, sd = 1, a = 2; myncurve(0,1,2)
+myncurve(0,1,2)
 }

@@ -12,7 +12,7 @@
 #' @export
 #'
 #' @examples
-#' mean = 0, sd = 1, a = 2; myncurve(0,1,2)
+#' myncurve(0,1,2)
 myncurve <- function(mu, sigma, a) {
   subtitle.m = paste("mean=", mu, sep = " ")
   subtitle.s = paste("sd=", sigma, sep = " ")
@@ -25,7 +25,7 @@ myncurve <- function(mu, sigma, a) {
   xcurve = seq(-1000,a,length = 10000)
   ycurve = dnorm(xcurve, mean = mu, sd = sigma)
   polygon(c(-1000, xcurve, a), c(0, ycurve,0), col = "red", lwd = 3)
-  
+
   prob = pnorm(a, mu, sigma, TRUE)
   prob = round(prob, 4)
   prob

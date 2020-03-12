@@ -19,5 +19,5 @@ Produces a vector of z scores for a given data set
 This is a part of the lab 4 requirement, but it is from lab 2
 }
 \examples{
-x = 1:57 ; zvals(x)
+x = 1:58 ; zvals(x)
 }
