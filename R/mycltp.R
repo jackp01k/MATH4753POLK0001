@@ -4,9 +4,12 @@
 #'
 #' This is a part of the lab 8 requirement
 #'
-#' @param n a sample size
+#' @param n
+#' @param iter
+#' @param lambda
+#' @param ...
 #'
-#' @return a set of graphs
+#' @return a set of graphs relating to poisson distribution
 #' @export
 #'
 #' @examples
