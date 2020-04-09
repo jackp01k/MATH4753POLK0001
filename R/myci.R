@@ -26,18 +26,9 @@ myci <- function (x) {
   z=qnorm(a)
 
   ci = c()
-  if(length(x) >= 30) {
-    ci[1]=round(mean(d)-z*sd(d)/sqrt(l), 4)
-    ci[2]=round(mean(d)+z*sd(d)/sqrt(l), 4)
+  ci[1]=round(mean(d)-t*sd(d)/sqrt(l),4)
+  ci[2]=round(mean(d)+t*sd(d)/sqrt(l),4)
 
-    #output Z
-    paste("Using Z, the ci is", ci, sep = " ")
-  }
-  else {
-    ci[1]=round(mean(d)-t*sd(d)/sqrt(l),4)
-    ci[2]=round(mean(d)+t*sd(d)/sqrt(l),4)
-
-    #output T
-    paste("Using T, the ci is", ci, sep = " ")
-  }
+  #output T
+  ci
 }
