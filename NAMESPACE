@@ -3,6 +3,7 @@
 export(maxlikg2)
 export(mybin)
 export(myboot2)
+export(myci)
 export(mycltp)
 export(myf)
 export(myncurve)
